@@ -61,8 +61,10 @@ ul li {
   font-family: "Aachen BT";
 }
 
+
 ul li:hover {
   color: #e9a438;
+
 }
 
 .titlle {
@@ -107,6 +109,35 @@ color: #ffffff;
 font-family: "Aachen BT";
 }
 
+
+/* ///////////////////////////food gallery///////////////// */
+#food-gallery {
+  margin-top: 850px;
+  top: 50px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+table {
+  /* margin-top: 30px; */
+  border-collapse: separate;
+  border-spacing: 14px 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imag {
+  border: none;
+  border-radius: 0px;
+  width: 250px;
+  height: 280px;
+  opacity: 2;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
 .container {
   display: flex;
   align-items: center;
@@ -137,4 +168,5 @@ img {
   background-color: rgba(40, 40, 45, 0.9490196078431372);
   width: 100vw;
   height: 100vh;
+
 }
