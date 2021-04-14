@@ -1,12 +1,11 @@
 * {
   margin: 0;
-  /* font-weight: bolder; */
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #1D1D23;
+  background-color: #1d1d23;
   width: 100%;
   height: 100%;
 }
@@ -19,7 +18,6 @@ header {
 }
 
 nav {
-  /* margin-top: 10px; */
   position: relative;
   width: 100%;
   display: flex;
@@ -32,9 +30,7 @@ nav a {
   text-decoration: none;
   color: #fff;
 }
-nav li :hover{
-  color: #E9A438;
-}
+
 nav .logo {
   position: relative;
   display: flex;
@@ -60,10 +56,10 @@ ul li {
   line-height: 30px;
   letter-spacing: 0px;
   color: #ffffff;
-  font-family: "Roboto Slab', serif";
+  font-family: "Aachen BT";
 }
 
-ul li:hover {
+nav li :hover {
   color: #e9a438;
 }
 
@@ -71,18 +67,18 @@ ul li:hover {
   font-size: 67px;
   letter-spacing: 1px;
   color: #e58f00;
-  font-family: "Roboto Slab', serif";
+  font-family: "Aachen BT";
 }
 .title-2 {
   font-size: 50px;
   color: #ffffff;
-  font-family: "Roboto Slab', serif";
+  font-family: "Aachen BT";
 }
 #contact-btn {
   font-size: 25px;
   letter-spacing: 0px;
   color: #28282d;
-  font-family: "Roboto Slab', serif";
+  font-family: "Aachen BT";
   background-color: #e9a438;
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
@@ -90,7 +86,6 @@ ul li:hover {
   border: none;
   margin-top: 10%;
   margin-left: 0%;
-
 }
 
 .praimary-text {
@@ -100,33 +95,28 @@ ul li:hover {
   padding-top: 10px;
   letter-spacing: 0px;
   color: #ffffff;
-  font-family: "Roboto Slab', serif";
+  font-family: "Aachen BT";
 }
 .praimary-text-2 {
-  width: 45vw;
-  height: 35vh;
+  width: 529px;
+  height: 317px;
   padding-top: 10px;
   font-size: 33px;
   color: #ffffff;
-  font-family: "Roboto Slab', serif";
+  font-family: "Aachen BT";
 }
 
 .qulity {
-  /* height: 200vh; */
   width: 100%;
-  /* height: 100vh; */
-  /* padding-top: 20%; */
   margin-top: 5%;
   background-image: url("imgs/Shape.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 40%;
-  /* background-color: rgba(40,40,45,0.9490196078431372) ; */
 }
 
 /* ///////////////////////////food gallery///////////////// */
 #food-gallery {
-  /* margin-top: 850px; */
   top: 50px;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -136,7 +126,6 @@ ul li:hover {
 }
 
 table {
-  /* margin-top: 30px; */
   border-collapse: separate;
   border-spacing: 20px 20px;
   margin-left: auto;
@@ -158,13 +147,12 @@ table {
   margin-top: 20px;
   width: 100%;
   text-align: center;
-  font-family: "Roboto Slab', serif";
+  font-family: "Aachen BT";
   font-size: 25px;
   color: white;
 }
 
 .our-menue {
-  /* margin-top: 30px; */
   border-collapse: separate;
   border-spacing: 20px 20px;
   margin-left: auto;
@@ -187,23 +175,20 @@ table {
   letter-spacing: 0px;
   line-height: 117px;
   color: #e58f00;
-  font-family: "Roboto Slab', serif";
-  /* font-weight: bold; */
+  font-family: "Aachen BT";
 }
 
 .paragragh {
   text-align: left;
   font-size: 12px;
-  font-family: "Roboto Slab', serif";
-  /* font-weight: bold; */
+  font-family: "Aachen BT";
   color: white;
-  /* width: min-content; */
 }
 
 .price {
   text-align: left;
   font-size: 14px;
-  font-family: "Roboto Slab', serif";
+  font-family: "Aachen BT";
   color: #e58f00;
 }
 .container {
@@ -212,10 +197,6 @@ table {
   justify-content: space-evenly;
   padding-top: 5%;
 }
-/* #section2{
-  background-color: rgba(40, 40, 45, 0.9490196078431372);
-  
-} */
 .container-2 {
   display: flex;
   align-items: center;
@@ -279,6 +260,37 @@ img {
   border-radius: 0px;
   border-style: solid;
 }
+#footer{
+  height: 120vh;
+  width: 100%;
+  background-image: url("imgs/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10%;
+}
+#p1{
+  display: flex;
+  justify-content: space-around;
+}
+.title-3{
+  font-size: 50px;
+  color: #ffffff;
+  font-family: "Aachen BT";
+}
+.praimary-text-3{
+  width: 529px;
+  height: 317px;
+  padding-top: 20px;
+  font-size: 33px;
+  color: #ffffff;
+  font-family: "Aachen BT";
+}
+#footer-img{
+  margin-top: -4%;
+}
+.last-text{
+margin-top: 9%;
+}
 /* BREAKS FOR THE nav bar at 1777 */
 @media (max-width: 1177px) {
   .platimg {
@@ -301,10 +313,33 @@ img {
     /* margin-left: 10px; */
     margin-top: 5%;
     margin-left: 0%;
-    /* padding-left: 50%; */
-    /* border: none; */
+  }
+  .platimge {
+    width: auto;
+    height: auto;
+  }
+  .title-2 {
+    font-size: 40px;
+  }
+  .praimary-text-2{
+    font-size: 30px;
+  }
+  .qulity {
+    background-position: 45%;
+  }
+  #img-1 {
+    height: 650px;
+    margin-top: -65%;
+  }
+  #img-2 {
+    height: 900px;
+  }
+  #img-3 {
+    height: 450px;
+    margin-top: -250%;
   }
 }
+
 @media (max-width: 1000px) {
   .platimg {
     width: 10px;
@@ -329,34 +364,4 @@ img {
     /* padding-left: 50%; */
     /* border: none; */
   }
-  /* .title-2 {
-    font-size: 40px;
-  }
-  .praimary-text-2{
-    font-size: 150px;
-    width: 50px;
-  } */
-  .qulity {
-    background-position: 45%;
-  }
-  #img-1 {
-    height: 650px;
-    margin-top: -65%;
-  }
-  #img-2 {
-    height: 900px;
-  }
-  #img-3 {
-    height: 450px;
-    margin-top: -250%;
-  }
-  .platimge{
-    width: auto;
-    height: auto;
-  }
-  /* .platimg{
-    width: 300px;
-    height: 250px;
-  } */
-
 }
